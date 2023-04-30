@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form</title>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <form action="https://your-cognito-domain.auth.us-east-1.amazoncognito.com/login" method="POST">
+      <input type="hidden" name="response_type" value="token">
+      <input type="hidden" name="client_id" value="your-cognito-app-client-id">
+      <input type="hidden" name="redirect_uri" value="http://localhost:3000/callback">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
