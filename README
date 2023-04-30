@@ -3,3 +3,11 @@ First, let's create an HTML file with a login form. This form will be used to au
 
 Next, let's create a Terraform module that sets up an AWS Cognito user pool, an app client, and an identity pool. The module will output the app client ID and the identity pool ID, which we'll use in our HTML file.
 
+
+
+
+example 2:
+
+1.login.js
+2.logout.js
+Note that you need to replace the YOUR_IDENTITY_POOL_ID, YOUR_USER_POOL_ID, and YOUR_APP_CLIENT_ID placeholders with your own values.
